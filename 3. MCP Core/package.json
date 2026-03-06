@@ -1,0 +1,16 @@
+{
+  "name": "3. MCP Core",
+  "version": "1.0.0",
+  "description": "Minimal MCP Core server with stdio framing, tools, resources, and lifecycle handling.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "smoke": "node client.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.26.0"
+}
