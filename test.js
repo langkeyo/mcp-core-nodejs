@@ -141,7 +141,7 @@ async function run() {
       name: 'sum',
       arguments: { a: 5, b: 7 }
     })
-    assert.strictEqual(sumResult, 999)
+    assert.strictEqual(sumResult, 12)
 
     const resourcesResult = await client.sendRequest('resources/list', {})
     assert.ok(Array.isArray(resourcesResult.resources))
